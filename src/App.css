@@ -1,16 +1,7 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  width: 800px;
+  margin: 0 auto;
 }
 
 .App-header {
@@ -23,16 +14,27 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.App .list_style li{
+  margin:10px;
+  border-bottom:1px solid #eee;
+}
+.App .list_style li:hover{
+  background:#eee;
+}
+.App .list_style li p{
+  margin:0 7% 0 0;
+  width: 70%; 
+  float: left; 
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height:22px;
+}
+.App .list_style li button{
+  margin:0 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .list_style1 li p{
+  color:red;
 }
