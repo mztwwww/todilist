@@ -14,6 +14,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App .div_style1{
+  min-height:100px;
+  line-height: 100px;
+  text-align:center; 
+}
+.App .list_style{
+  min-height:100px;
+}
 .App .list_style li{
   margin:10px;
   border-bottom:1px solid #eee;
@@ -23,7 +31,7 @@
 }
 .App .list_style li p{
   margin:0 7% 0 0;
-  width: 70%; 
+  width: 67%; 
   float: left; 
   text-align: left;
   white-space: nowrap;
@@ -33,8 +41,16 @@
 }
 .App .list_style li button{
   margin:0 5px;
+  float: right;
 }
 
 .App .list_style1 li p{
   color:red;
+}
+.App .div_style{
+  border:1px solid #ccc;
+  margin:10px;
+}
+.App .button_style{
+  margin:10px;
 }
